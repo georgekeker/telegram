@@ -28,7 +28,7 @@ def message_handler(update: Update, context:CallbackContext):
 
 def main():
     updater=Updater(
-        token ="1740318020:AAF1pIZguJv2U6JK8duZPvSPQXYSqoSeV68",
+        token ="пошел на ",
         use_context=True,              #обновляет
     )
     updater.dispatcher.add_handler(MessageHandler(filters=Filters.all, callback=message_handler))
